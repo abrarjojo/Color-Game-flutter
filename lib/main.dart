@@ -123,10 +123,10 @@ class _HomePageState extends State<HomePageUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: Text("Click sqaer to get same color"),
-        backgroundColor: Colors.grey.shade100,
+        backgroundColor: Colors.amber,
       ),
       body: Container(
           child: Column(
