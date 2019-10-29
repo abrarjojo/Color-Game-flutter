@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePageUI> {
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: Text("Click sqaer to get same color"),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.lightBlueAccent,
       ),
       body: Container(
           child: Column(
@@ -157,7 +157,7 @@ class _HomePageState extends State<HomePageUI> {
               //BoxDecoration(color: Colors.black12, shape: BoxShape.circle),
               child: Icon(
                 Icons.play_circle_filled,
-                color: Colors.amber,
+                color: Colors.lightGreen,
                 size: 40.0,
               ),
               height: 40.0,
